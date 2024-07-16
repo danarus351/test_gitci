@@ -17,6 +17,7 @@ jobs:
     - name: install dep
       run: pip install pytest
     - name:  run test
-      run: pytest
+      run: |
+        pytest
 
 
